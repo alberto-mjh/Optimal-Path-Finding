@@ -24,7 +24,7 @@
 
 ## 🛠 기술 스택 (Tech Stack)
 
-- **언어**: Python 3.x
+- **언어**: Python
 - **프레임워크/라이브러리**: Flask, Pandas, Requests, Concurrent.futures
 - **외부 API**: Kakao Maps API, Kakao Mobility API, Kakao Local API
 - **알고리즘**: Nearest Neighbor, 3-opt, Simulated Annealing (SA)
