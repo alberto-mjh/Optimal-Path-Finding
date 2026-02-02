@@ -17,10 +17,10 @@ import time
 # ==========================================
 # 1. 설정 및 초기화
 # ==========================================
-KAKAO_REST_KEY = ""
-KAKAO_JS_KEY = ""
+KAKAO_REST_KEY = ""        # 발급 받은 REST API 키 입력
+KAKAO_JS_KEY = ""        # 발급 받은 JavsScript 키 입력
 
-CSV_FILE_NAME = ""
+CSV_FILE_NAME = ""        # 최종 입력 데이터 csv 파일 이름 (예: Final_Bridges.csv)
 OFFICE_NAME = "사무실"
 OFFICE_ADDRESS = "서울 동작구 보라매로5가길 24"
 WORK_LIMIT_HOURS = 8 
@@ -28,7 +28,7 @@ HTML_FILE = "kakao_map_battle_visual.html"
 PORT = 8000
 
 
-USE_API_CACHE = True      # True : API 저장, False : API 새로 받기
+USE_API_CACHE = True      # True : API 절약을 위한 저장, False : 무조건 API 새로 받기
 CACHE_FILE_NAME = "route_cache.json"
 
 DAILY_COLORS = [
